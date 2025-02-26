@@ -19,7 +19,7 @@
 
 
 ## 🔭 현재 진행 중인 프로젝트
-I'm currently working on [DevHub](https://github.com/dongkyukim1/devhub) - Git 기반의 형상 관리 및 협업 플랫폼
+I'm currently working on [DevHub](https://github.com/qwerrewq123/gathering-application-msa) - 소모임 어플리케이션 MSA 마이그레이션 프로젝트
 
 ## 🌱 현재 학습 중인 기술
 I'm currently learning **Spring** to enhance my front-end development skills and build more dynamic user interfaces.
