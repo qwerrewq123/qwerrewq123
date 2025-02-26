@@ -84,38 +84,64 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)
 ## 🚀 주요 프로젝트
 
-### 1. DevHub - 형상 관리 웹사이트 (5인 프로젝트, PM 역할)
-- **설명**: Git 기반의 형상 관리 및 협업 플랫폼
-- **기술 스택**: Spring Boot, Flask, MySQL, Docker, AWS,JS
-- **주요 기능**: 
-  - 프로젝트 관리 (생성, 수정, 삭제)
-  - 이슈 트래킹 시스템
-  - Git 기반 버전 관리 및 브랜치 관리
-  - 풀 리퀘스트 및 코드 리뷰
-  - OpenAI API를 활용한 AI 코드 리뷰
+### 1. Gathering-MSA - 소모임 어플리케이션 MSA로 마이그레이션 (1인 프로젝트)
+- **설명**: 관심사가 비슷한 사람들의 취미활동을 위한 플랫폼 사이트
+- **기술 스택**:
+  - Frontend : JavaScript(ES6), React
+  - Backend : JAVA 21, SpringBoot 3.2, JPA, MySQL, SpringCloud, Kafka, Resilenece4J, Grafana, Prometheus, FCM
+  - Infra : Docker, Github-Action, AWS- EC2, ELB, MSK, CloudFront, S3, RDS
+- **주요 기능**:
+  - JWT를 이용한 인증/인가 기능
+  - 소모임, 정모 등록/수정/조회/삭제 기능
+  - 소모임, 정모 참가신청/취소/허가 기능
+  - 매일 자정 조회수가 가장 많은 소모임 5개 등록
+  - 웹 소켓을 이용한 채팅 서버 기능
+  - 회원이 속한 모임의 정모 등록 시 푸쉬 알람 기능
+  - ConfigServer를 따로 두어 환경변수 관리
 - **역할**: 
-  - 프로젝트 매니저로서 전체 일정 및 진행 관리
-  - 프론트엔드 개발 총괄
-  - REST API 설계 및 구현
-  - Docker를 활용한 개발 환경 표준화 및 AWS 배포
-- **GitHub**: [프로젝트 링크](https://github.com/dongkyukim1/devhub-server)
+  - 백엔드 기능 개발
+  - 프론트엔드 개발 
+  - REST API 문서화
+  - Github-Action과 AWS를 이용한 클라우드 배포
+- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application-msa)
 
-### 2. Dog-foot - 개발자 커뮤니티 (4인 프로젝트, PM 역할)
-- **설명**: 개발자를 위한 강의 추천 및 소통 플랫폼
-- **기술 스택**: Spring, JSP, Oracle, JavaScript
-- **주요 기능**: 
-  - 강의 추천 시스템
-  - 인기 게시판
-  - 사용자 프로필 관리
+### 2. Gathering-application - 소모임 어플리케이션(1인 프로젝트)
+- **설명**: 관심사가 비슷한 사람들의 취미활동을 위한 플랫폼 사이트
+- **기술 스택**:
+  - Frontend : JavaScript(ES6), React
+  - Backend : JAVA 21, SpringBoot 3.2, JPA, MySQL, Redis, FCM
+  - Infra : Docker, Github-Action, AWS- EC2, ELB, CloudFront, S3, RDS, Elasticache
+- **주요 기능**:
+  - JWT 이용한 인증/인가 기능
+  - 소모임, 정모 등록/수정/조회/삭제 기능
+  - 소모임, 정모 참가신청/취소/허가 기능
+  - 매일 자정 조회수가 가장 많은 소모임 5개 등록
+  - 웹 소켓을 이용한 채팅 서버 기능
+  - 회원이 속한 모임의 정모 등록 시 푸쉬 알람 기능
 - **역할**: 
-  - 전체 JavaScript 기능 구현
-  - 인기 게시판 풀스택 개발
-  - Mybatis를 활용한 백엔드 로직 구현
-- **GitHub**: [프로젝트 링크](https://github.com/dongkyukim1/dogFoot)
+  - 백엔드 기능 개발
+  - 프론트엔드 개발
+  - REST API 문서화
+  - Github-Action과 AWS를 이용한 클라우드 배포
+- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application)
 
-### 3. 스타벅스 키오스크 (3인 프로젝트, PM 역할)
+### 3. 프랜차이즈 발주/재고관리 어플리케이션 (4인 프로젝트)
+- **설명**: 본사와 가맹점을 위한 발주/재고관리 어플리케이션
+- **기술 스택**:
+  - Frontend : JavaScript(ES6), React
+  - Backend : JAVA 8, SpringBoot 2.3, JPA, MySQL
+  - Infra : Docker, Github-Action, AWS- EC2, ELB, CloudFront, S3, RDS
+- **주요 기능**: 
+  - 상품 등록/수정/삭제
+  - 관리자 모드 (상품 관리, 매출 관리)
+- **역할**: 
+  - Java Swing UI 설계 및 구현
+  - Oracle DB 연동 및 쿼리 최적화
+- **GitHub**: [프로젝트 링크](https://github.com/dongkyukim1/Java_Swing)
+
+  ### 4. 경매 사이트 어플리케이션 (4인 프로젝트)
 - **설명**: Java Swing을 활용한 스타벅스 키오스크 시스템
-- **기술 스택**: Java Swing, Oracle
+- **기술 스택**: Java 8, JSP, JavaScript(ES6), JQuery
 - **주요 기능**: 
   - 메뉴 주문 및 결제 시스템
   - 관리자 모드 (상품 관리, 매출 관리)
@@ -144,7 +170,7 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 - 
 ## 📊 GitHub 통계
 
-![김동규의 GitHub 통계](https://github-readme-stats.vercel.app/api?username=qwerrewq123&show_icons=true&theme=radical)
+![최성욱의 GitHub 통계](https://github-readme-stats.vercel.app/api?username=qwerrewq123&show_icons=true&theme=radical)
 
 ## 🔤 주로 사용하는 언어
 
