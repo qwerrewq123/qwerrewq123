@@ -107,16 +107,17 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 
 ### 2. Gathering-application - 소모임 어플리케이션(1인 프로젝트)
 - **설명**: 관심사가 비슷한 사람들의 취미활동을 위한 플랫폼 사이트
+- **기간**: 24.12~25.02
 - **기술 스택**:
   - Frontend : JavaScript(ES6), React
   - Backend : JAVA 21, SpringBoot 3.2, JPA, MySQL, Redis, FCM
-  - Infra : Docker, Github-Action, AWS- EC2, ELB, CloudFront, S3, RDS, Elasticache
+  - Infra : Docker, Github-Action, AWS- EC2, ELB, CloudFront, S3, RDS
 - **주요 기능**:
   - JWT 이용한 인증/인가 기능
   - 소모임, 정모 등록/수정/조회/삭제 기능
   - 소모임, 정모 참가신청/취소/허가 기능
   - 매일 자정 조회수가 가장 많은 소모임 5개 등록
-  - 웹 소켓을 이용한 채팅 서버 기능
+  - STOMP을 이용한 채팅 서버 기능
   - 회원이 속한 모임의 정모 등록 시 푸쉬 알람 기능
 - **역할**: 
   - 백엔드 기능 개발
@@ -129,26 +130,33 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 - **설명**: 본사와 가맹점을 위한 발주/재고관리 어플리케이션
 - **기술 스택**:
   - Frontend : JavaScript(ES6), React
-  - Backend : JAVA 8, SpringBoot 2.3, JPA, MySQL
-  - Infra : Docker, Github-Action, AWS- EC2, ELB, CloudFront, S3, RDS
-- **주요 기능**: 
-  - 상품 등록/수정/삭제
-  - 관리자 모드 (상품 관리, 매출 관리)
+  - Backend : JAVA 8, SpringBoot 2.3, JPA, MySQL,MyBatis
+  - Infra : Docker, Github-Action, AWS- EC2, ELB, S3, RDS
+- **주요 기능**:
+  - 관리자 유저/ 가맹점 유저/ 일반 유저 기능  
+  - 관리자 모드(상품 등록/수정/삭제 기능, 재고수량 변경 기능, 월별/분기별/연도별 매출 확인 기능)
+  - 가맹점 모드 (발주 기능, 해당 가맹점 월별/분기별/연도별 매출 확인 기능)
+  - 일반 모드(게시판 등록/수정/조회/삭제 기능)
 - **역할**: 
-  - Java Swing UI 설계 및 구현
-  - Oracle DB 연동 및 쿼리 최적화
-- **GitHub**: [프로젝트 링크](https://github.com/dongkyukim1/Java_Swing)
+  - 가맹점 기준 월별/분기별/연도별 매출확인 기능
+  - 관리자(본사) 기준 월별/분기별/연도별 매출확인 기능
+- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/cafeconnect_back)
 
   ### 4. 경매 사이트 어플리케이션 (4인 프로젝트)
-- **설명**: Java Swing을 활용한 스타벅스 키오스크 시스템
-- **기술 스택**: Java 8, JSP, JavaScript(ES6), JQuery
+- **설명**: 경매 입찰자(개발자) 낙찰자(회사/기업)을 위한 경매 플랫폼 사이트
+- **기술 스택**: Java 8, JSP, JavaScript(ES6), JQuery, MyBatis
 - **주요 기능**: 
-  - 메뉴 주문 및 결제 시스템
-  - 관리자 모드 (상품 관리, 매출 관리)
+  - 경매 등록/수정/삭제
+  - 경매 조회
+  - 로그인/로그아웃/회원가입/회원탈퇴/프로필수정(세션 이용)
+  - 낙찰 성공/낙찰 실패(성공 또는 실패 후 이메일전송 및 알림 기능)
+  - 해당 키워드로 경매 조회 기능(페이징)
+  - 블랙리스트 등록/해제 기능
 - **역할**: 
-  - Java Swing UI 설계 및 구현
-  - Oracle DB 연동 및 쿼리 최적화
-- **GitHub**: [프로젝트 링크](https://github.com/dongkyukim1/Java_Swing)
+  - 낙찰 성공/실패(성공 또는 실패 후 이메일전송 및 알림 기능)
+  - 블랙리스트 등록/해제 기능
+  - 해당 키워드로 경매 조회 기능
+- **GitHub**: [프로젝트 링크](https://github.com/KIJ9801/devPanda)
 
 ## 💡 프로페셔널 목표
 
@@ -158,7 +166,7 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 - AWS, Docker, Kubernetes등 실제로 클라우드에 배포해보기
 
 ### 중기 목표
-- 풀스택 개발자로서의 역량 강화
+- 백엔드 개발자로서의 역량 강화
 - 대규모 프로젝트 설계 및 아키텍처 구축 능력 개발
 - 팀 리더십 스킬 향상
 - 
@@ -167,7 +175,7 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 - 기술 리더 또는 아키텍트로 성장
 - 오픈 소스 프로젝트 기여 및 커뮤니티 리더십 발휘
 - 소프트웨어 개발 방법론 혁신 및 업계 트렌드 선도
-- 
+- FrameWork 구현, 및 서버 개발
 ## 📊 GitHub 통계
 
 ![최성욱의 GitHub 통계](https://github-readme-stats.vercel.app/api?username=qwerrewq123&show_icons=true&theme=radical)
@@ -179,7 +187,7 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 
 
 ## 📫 연락처
-- **이메일**: preejer8013@gmail.com
+- **이메일**: ccccssung@gmail.com
 - **블로그**: [개발 블로그](https://velog.io/@ccccssung/posts)
 
 ---
