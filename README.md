@@ -9,11 +9,11 @@
 
  ## 🌐 포트폴리오 웹사이트
 
-저의 상세한 프로젝트 경험과 기술 스택을 확인하실 수 있는 포트폴리오 웹사이트를 방문해 주세요!
+저의 상세한 프로젝트 경험과 기술 스택을 확인하실 수 있는 이력서 웹사이트를 방문해 주세요!
 
 <p align="center">
   <a href="https://dongkyu.shop" target="_blank">
-    <img src="https://img.shields.io/badge/My_Portfolio-FF5722?style=for-the-badge&logo=vue.js&logoColor=white" alt="포트폴리오 웹사이트" />
+    <img src="https://olive-raincoat-a7e.notion.site/1ab7e2670fe68082b9f9d39b4d23c8b5?pvs=4" alt="이력서 웹사이트" />
   </a>
 </p>
 
