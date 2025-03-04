@@ -176,8 +176,6 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 
 ![주로 사용하는 언어](https://github-readme-stats.vercel.app/api/top-langs/?username=qwerrewq123&layout=compact&theme=radical)
 
-## 🔥 연속 커밋 스트릭
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=qwerrewq123&theme=dark)](https://git.io/streak-stats)
 
 
 ## 📫 연락처
