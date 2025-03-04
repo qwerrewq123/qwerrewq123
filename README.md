@@ -7,16 +7,6 @@
 
 > "조금씩이라도 매일 배우자" - 저의 개발 철학입니다.
 
- ## 🌐 포트폴리오 웹사이트
-
-저의 상세한 프로젝트 경험과 기술 스택을 확인하실 수 있는 이력서 웹사이트를 방문해 주세요!
-
-<p align="center">
-  <a href="https://dongkyu.shop" target="_blank">
-    <img src="https://olive-raincoat-a7e.notion.site/1ab7e2670fe68082b9f9d39b4d23c8b5?pvs=4" alt="이력서 웹사이트" />
-  </a>
-</p>
-
 
 ## 🔭 현재 진행 중인 프로젝트
 I'm currently working on [DevHub](https://github.com/qwerrewq123/gathering-application-msa) - 소모임 어플리케이션 MSA 마이그레이션 프로젝트
