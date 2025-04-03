@@ -87,11 +87,9 @@ I'm currently learning **Spring** to enhance my front-end development skills and
   - 매일 자정 조회수가 가장 많은 소모임 5개 등록
   - 웹 소켓을 이용한 채팅 서버 기능
   - 회원이 속한 모임의 정모 등록 시 푸쉬 알람 기능
-  - ConfigServer를 따로 두어 환경변수 관리
 - **역할**: 
   - 백엔드 기능 개발
   - 프론트엔드 개발 
-  - REST API 문서화
   - Github-Action과 AWS를 이용한 클라우드 배포
 - **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application-msa)
 
@@ -112,7 +110,6 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 - **역할**: 
   - 백엔드 기능 개발
   - 프론트엔드 개발
-  - REST API 문서화
   - Github-Action과 AWS를 이용한 클라우드 배포
 - **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application)
 
@@ -178,7 +175,6 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 
 ## 📫 연락처
 - **이메일**: ccccssung@gmail.com
-- **블로그**: [개발 블로그](https://velog.io/@ccccssung/posts)
 
 ---
 
