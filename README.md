@@ -5,17 +5,14 @@
 ## 👋 소개
 안녕하세요! 저는 최성욱입니다. 전기공학과을 전공하고 소프트웨어 개발자로 전향한 열정적인 개발자입니다. 다양한 프로젝트 경험을 통해 풀스택 개발 능력을 키워왔으며, 지속적인 학습과 성장을 추구합니다.
 
-> "조금씩이라도 매일 배우자" - 저의 개발 철학입니다.
 
 
 ## 🔭 현재 진행 중인 프로젝트
 I'm currently working on [DevHub](https://github.com/qwerrewq123/gathering-application-msa) - 소모임 어플리케이션 MSA 마이그레이션 프로젝트
 
-## 🌱 현재 학습 중인 기술
-I'm currently learning **Spring** to enhance my front-end development skills and build more dynamic user interfaces.
 
 ### 핵심 역량
-- 🚀 프로젝트 리더십: 3번의 프로젝트 팀장 경험
+- 🚀 프로젝트 리더십: 2번의 프로젝트 팀장 경험
 - 📚 지속적 성장: 최근 자격증 취득 및 교육 이수
 
 ## 🎓 학력 및 경력
@@ -63,15 +60,12 @@ I'm currently learning **Spring** to enhance my front-end development skills and
 
 ### 협업 도구
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
 ### 테스트 & 문서화
 ![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-### 성능 최적화
-![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)
 ## 🚀 주요 프로젝트
 
 ### 1. Gathering-MSA - 소모임 어플리케이션 MSA로 마이그레이션 (1인 프로젝트)
