@@ -100,9 +100,10 @@
   - AI를 기반으로 한 여행지 추천 서비스
 - **역할**: 
   - JWT 인증/인가 , OAuth 인증 개발
-  - 여행지 추천 기능ㅇ 개발
+  - 여행지 추천 기능 개발
   - Github-Action과 AWS를 이용한 클라우드 배포
-- **GitHub**: [프로젝트 링크](https://github.com/sideProjectTempName/server)
+- **GitHub**: [Spring-Server](https://github.com/sideProjectTempName/server)
+- **GitHub**: [FastAPI-Server](https://github.com/sideProjectTempName/fastapi)
 
 ### 3. 프랜차이즈 발주/재고관리 어플리케이션 (4인 프로젝트)
 - **설명**: 본사와 가맹점을 위한 발주/재고관리 어플리케이션
