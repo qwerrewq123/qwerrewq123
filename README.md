@@ -68,32 +68,14 @@ I'm currently working on [DevHub](https://github.com/qwerrewq123/gathering-appli
 
 ## 🚀 주요 프로젝트
 
-### 1. Gathering-MSA - 소모임 어플리케이션 MSA로 마이그레이션 (1인 프로젝트)
-- **설명**: 관심사가 비슷한 사람들의 취미활동을 위한 플랫폼 사이트
-- **기술 스택**:
-  - Frontend : JavaScript(ES6), React
-  - Backend : JAVA 21, SpringBoot 3.2, JPA, MySQL, SpringCloud, Kafka, Resilenece4J, Grafana, Prometheus, FCM
-  - Infra : Docker, Github-Action, AWS- EC2, ELB, MSK, CloudFront, S3, RDS
-- **주요 기능**:
-  - JWT를 이용한 인증/인가 기능
-  - 소모임, 정모 등록/수정/조회/삭제 기능
-  - 소모임, 정모 참가신청/취소/허가 기능
-  - 매일 자정 조회수가 가장 많은 소모임 5개 등록
-  - 웹 소켓을 이용한 채팅 서버 기능
-  - 회원이 속한 모임의 정모 등록 시 푸쉬 알람 기능
-- **역할**: 
-  - 백엔드 기능 개발
-  - 프론트엔드 개발 
-  - Github-Action과 AWS를 이용한 클라우드 배포
-- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application-msa)
 
-### 2. Gathering-application - 소모임 어플리케이션(1인 프로젝트)
+### 1. Gathering-service - 소모임 어플리케이션(1인 프로젝트)
 - **설명**: 관심사가 비슷한 사람들의 취미활동을 위한 플랫폼 사이트
 - **기간**: 24.12~25.02
 - **기술 스택**:
   - Frontend : JavaScript(ES6), React
-  - Backend : JAVA 21, SpringBoot 3.2, JPA, MySQL, Redis, FCM
-  - Infra : Docker, Github-Action, AWS- EC2, ELB, CloudFront, S3, RDS
+  - Backend : JAVA 21, SpringBoot 3.2, JPA, MySQL, Redis, FCM, RabbitMQ
+  - Infra : AWS, Github-Actions
 - **주요 기능**:
   - JWT 이용한 인증/인가 기능
   - 소모임, 정모 등록/수정/조회/삭제 기능
@@ -106,6 +88,23 @@ I'm currently working on [DevHub](https://github.com/qwerrewq123/gathering-appli
   - 프론트엔드 개발
   - Github-Action과 AWS를 이용한 클라우드 배포
 - **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application)
+- 
+### 2. trip-planner-service - 국내 여행지 추천 서비스
+- **설명**: AI 기반으로 한 국내 여행지 추천 서비스 및 커뮤니티 플랫폼 사이트
+- **기술 스택**:
+  - Frontend : JavaScript(ES6), Next.js
+  - Backend : JAVA 21, SpringBoot 3.2, Python 3.12, FastAPI, PostgreSQL, Redis
+  - Infra : AWS, Github-Actions
+- **주요 기능**:
+  - JWT를 이용한 인증/인가 기능 및 OAuth 
+  - 여행지 조회 기능
+  - 동행자 모집 및 채팅 기능
+  - AI를 기반으로 한 여행지 추천 서비스
+- **역할**: 
+  - JWT 인증/인가 , OAuth 인증 개발
+  - 여행지 추천 기능ㅇ 개발
+  - Github-Action과 AWS를 이용한 클라우드 배포
+- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application-msa)
 
 ### 3. 프랜차이즈 발주/재고관리 어플리케이션 (4인 프로젝트)
 - **설명**: 본사와 가맹점을 위한 발주/재고관리 어플리케이션
