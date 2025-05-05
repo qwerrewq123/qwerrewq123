@@ -7,8 +7,6 @@
 
 
 
-## 🔭 현재 진행 중인 프로젝트
-I'm currently working on [DevHub](https://github.com/qwerrewq123/gathering-application-msa) - 소모임 어플리케이션 MSA 마이그레이션 프로젝트
 
 
 ### 핵심 역량
