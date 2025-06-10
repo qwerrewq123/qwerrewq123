@@ -80,13 +80,13 @@
   - 소모임, 정모 참가신청/취소/허가 기능
   - 매일 자정 조회수가 가장 많은 소모임 5개 등록
   - STOMP을 이용한 채팅 서버 기능
-  - 회원이 속한 모임의 정모 등록 시 푸쉬 알람 기능
+  - FCM Third-Party를 이용한 정모 등록 시 푸쉬 알람 기능
 - **역할**: 
   - 백엔드 기능 개발
   - 프론트엔드 개발
-  - Github-Action과 AWS를 이용한 클라우드 배포
-- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/gathering-application)
-- 
+  - Github-Action과 AWS를 이용한 클라우드 배포 및 Auto-Scaling 적용용
+- **GitHub**: [Backend](https://github.com/qwerrewq123/gathering-application)
+- **GitHub**: [Frontend](https://github.com/qwerrewq123/gathering-react)
 ### 2. trip-planner-service - 국내 여행지 추천 서비스
 - **설명**: AI 기반으로 한 국내 여행지 추천 서비스 및 커뮤니티 플랫폼 사이트
 - **기술 스택**:
@@ -104,22 +104,25 @@
   - Github-Action과 AWS를 이용한 클라우드 배포
 - **GitHub**: [Spring-Server](https://github.com/sideProjectTempName/server)
 - **GitHub**: [FastAPI-Server](https://github.com/sideProjectTempName/fastapi)
+- **GitHub**: [Next.js](https://github.com/sideProjectTempName/client)
 
 ### 3. 프랜차이즈 발주/재고관리 어플리케이션 (4인 프로젝트)
 - **설명**: 본사와 가맹점을 위한 발주/재고관리 어플리케이션
 - **기술 스택**:
   - Frontend : JavaScript(ES6), React
-  - Backend : JAVA 8, SpringBoot 2.3, JPA, MySQL,MyBatis
-  - Infra : Docker, Github-Action, AWS- EC2, ELB, S3, RDS
+  - Backend : JAVA 8, SpringBoot 2.3, JPA, MySQL
+  - Infra : AWS, Github-Actions
 - **주요 기능**:
   - 관리자 유저/ 가맹점 유저/ 일반 유저 기능  
   - 관리자 모드(상품 등록/수정/삭제 기능, 재고수량 변경 기능, 월별/분기별/연도별 매출 확인 기능)
   - 가맹점 모드 (발주 기능, 해당 가맹점 월별/분기별/연도별 매출 확인 기능)
   - 일반 모드(게시판 등록/수정/조회/삭제 기능)
 - **역할**: 
-  - 가맹점 기준 월별/분기별/연도별 매출확인 기능
-  - 관리자(본사) 기준 월별/분기별/연도별 매출확인 기능
-- **GitHub**: [프로젝트 링크](https://github.com/qwerrewq123/cafeconnect_back)
+  - 가맹점 기준 월별/분기별/연도별 매출확인 API 및 화면 개발
+  - 관리자(본사) 기준 월별/분기별/연도별 매출확인 API 및 화면 개발
+  - 상품 등록/수정/삭제 API 및 화면 개발
+- **GitHub**: [Backend](https://github.com/DDYDL/cafeconnect_back)
+- **GitHub**: [Frontend](https://github.com/DDYDL/cafeconnect_front)
 
   ### 4. 경매 사이트 어플리케이션 (4인 프로젝트)
 - **설명**: 경매 입찰자(개발자) 낙찰자(회사/기업)을 위한 경매 플랫폼 사이트
@@ -142,13 +145,13 @@
 ### 단기 목표
 - Java, Spring 심화 학습
 - Clean Code 학습 후 내 코드에 적용시켜보기
-- AWS, Docker, Kubernetes등 실제로 클라우드에 배포해보기
+- TDD 방식으로 개발 진행해보기
 
 ### 중기 목표
-- 백엔드 개발자로서의 역량 강화
+- MSA 개발 및 인프라 지식 습득(Spring-Cloud, K8s)
 - 대규모 프로젝트 설계 및 아키텍처 구축 능력 개발
 - 팀 리더십 스킬 향상
-- 
+  
 
 ### 장기 목표
 - 기술 리더 또는 아키텍트로 성장
@@ -168,6 +171,6 @@
 ## 📫 연락처
 - **이메일**: ccccssung@gmail.com
 
----
+
 
 🌟 저의 포트폴리오를 봐주셔서 감사합니다. 함께 일하고 성장할 기회가 있다면 언제든 연락 주세요!
